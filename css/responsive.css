@@ -16,7 +16,7 @@
     font-weight: bold;
     margin:0;
     padding:0;
-    color:darkslategray;
+    color:#333;
     font-style: italic;
     position: absolute;
     top:250px;
@@ -65,14 +65,14 @@
 
   .topTitle {
     font-family: sabon,serif;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     margin:0;
     padding:0;
-    color:darkslategray;
+    color:#333;
     font-style: italic;
     position: absolute;
-    top:40px;
+    top:30px;
     left:30px;
   }
 
