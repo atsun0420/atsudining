@@ -3,13 +3,7 @@
 /*-- @keyframes --*/
 /*-- タブレット向けレイアウト ～1000px --*/
 @media all and (max-width:1000px) {
- 
-  .imgShape img {
-    max-width:100%;
-    max-height:100%;
-    object-fit:cover;
-  }
-
+  
   .topTitle {
     font-family: sabon,serif;
     font-size: 64px;
@@ -23,46 +17,26 @@
     left:150px;
   }
 
-  /* ハンバーガーメニューのアイコン */
-  .drawer_open span,
-  .drawer_open span:before,
-  .drawer_open span:after {
-    content: '';
-    display: none;
-    height: 3px;
-    width: 25px;
-    border-radius: 3px;
-    background: #333;
-    transition: 0.5s;
-    position: absolute;
+  .menu-area {
+    width:25%;
   }
 
-  .nav_content {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    /* top:0%;  // メニューアイコンクリック時、左または右からメニューが表示 */
-    bottom: 100%; /* メニューアイコンクリック時、上からメニューが表示 */
-    left: 0%; /* メニューアイコンクリック時、上からメニューが表示 */
-    /* left: 100%; /* メニューアイコンクリック時、右からメニューが表示 */
-    /* right: 100%; /* メニューアイコンクリック時、左からメニューが表示 */
-    z-index: 99;
-    background: rgb(110, 110, 110);
-    transition: .5s;
-    text-align: center;
-    padding-top: 20px;
+  .menu-icon1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:cornflowerblue;
+    padding-left:10px;
+    display: block;
   }
+
+  .menu-eat {
+    display: none;
+  }  
 }
 
 /*-- スマートフォン向けレイアウト ～670px --*/
 @media all and (max-width:670px) {
-
-  .imgShape img {
-    max-width:100%;
-    max-height:100%;
-    object-fit:cover;
-  }
-
+ 
   .topTitle {
     font-family: sabon,serif;
     font-size: 24px;
@@ -96,29 +70,26 @@
   .drawer_open span,
   .drawer_open span:before,
   .drawer_open span:after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 25px;
-    border-radius: 3px;
-    background: #333;
-    transition: 0.5s;
-    position: absolute;
+        display: block;
   }
 
-  .nav_content {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    /* top:0%;  // メニューアイコンクリック時、左または右からメニューが表示 */
-    bottom: 100%; /* メニューアイコンクリック時、上からメニューが表示 */
-    left: 0%; /* メニューアイコンクリック時、上からメニューが表示 */
-    /* left: 100%; /* メニューアイコンクリック時、右からメニューが表示 */
-    /* right: 100%; /* メニューアイコンクリック時、左からメニューが表示 */
-    z-index: 99;
-    background: rgb(110, 110, 110);
-    transition: .5s;
-    text-align: center;
-    padding-top: 20px;
-  }  
+  .menu-area {
+    width:50%;
+  }
+
+  .menu-icon2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:cornflowerblue;
+    padding-left:10px;
+    display: block;
+  }
+
+  .menu-icon1 {
+    display: none;
+  }
+
+  .menu-eat {
+    display: none;
+  }
 }
