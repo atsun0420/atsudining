@@ -1,10 +1,14 @@
 @charset 'utf-8';
 
-/* 画面全体に関わるCSS*/
+/* 画面共通のCSS*/
 
-body {
+body,p,h1,h2,h3 {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*  header area 
@@ -13,10 +17,9 @@ header {
   margin: 0 5px;
 }
 
-.header-pc {
-  align-items: center;
-  display: block;
+.header-pc { 
   display:flex;
+  align-items: center;
 }
 
 .header-sp {
@@ -27,7 +30,6 @@ header {
   text-decoration: none;
   color:#333;
   font-size: 18px;
-
 }
 
 .nav_content_pc {
@@ -44,7 +46,6 @@ ul.nav_list_pc {
 
 .nav_list_pc li a{
   color:#333;
-  text-decoration: none;
   margin-left: 20px;
 }
 
@@ -131,7 +132,6 @@ ul.nav_list_pc {
 
 .nav_item a {
   color: #fff;
-  text-decoration: none;
 }
 
 /* アイコンがクリックされたらメニューを表示 */
@@ -141,22 +141,53 @@ ul.nav_list_pc {
 
 /*   main area 
                    */
-.main-container {
-  position: relative;
+.container {
+  background-color:skyblue;
   max-width: 100%;
   max-height: 100%;
   margin: 0 5px;
-  margin-top: 2px;
-  margin-bottom: -5px;
-  box-sizing: cover;
+}
+
+.main-img-wrapper {
+  position: relative;
+}
+
+.main-info-wrapper {
+  color:chocolate;
+  margin-top:30px;
+  height:100%;
+}
+
+.sentence-h2 {
+  color:#fff;
+  padding:5px 0 10px 5px;
+}
+
+.info-p {
+  color:#fff;
+  padding-left:5px;
+}
+
+.main-menu-wrapper {
+  color:chocolate;
+  margin-top:20px;
+  height:300px;
+}
+
+.menu-eat{
+  color:cornflowerblue;
+  padding-left:10px;
+}
+
+.topLink {
+  padding-left:10px;
+  color:#333;
 }
 
 .topTitle {
   font-family: sabon,serif;
   font-size: 96px;
   font-weight: bold;
-  margin:0;
-  padding:0;
   color:#333;
   font-style: italic;
   position: absolute;
@@ -168,43 +199,34 @@ ul.nav_list_pc {
   max-width:100%;
   max-height:100%;
   object-fit:cover;
-  padding-right:10px;
-}
-
-/*   create area (仮設置) 
-                           */
-.create-container {
-  max-width: 100%;
-  max-height: 100%;
+  vertical-align:bottom; /* 画像(img)の下に余白(すき間)ができる問題を解決 */
 }
 
 /*   footer area 
                    */
-footer {
-  margin: 0 5px;
-}
-
-.footer-container {
-  background-color:skyblue;
+footer {  
   text-align: center;
 }
 
-.footer-container p {
-  margin: 0 0 3px 0;
+.footer-p {
   color:#fff;
   font-size: 14px;
 }
 
-
-/* topImg       
-           */
-.topImg {
-  max-width:100%;
-  max-height:100%;
-  object-fit:cover;
+/*  menu 
+               */
+.menuS {
+  color:tomato;
+  padding:10px 0 20px 10px;
 }
 
-.createLink {
-  text-decoration: none;
-  color:#333;
+.menu-eat {
+  margin-bottom: 20px;
+}
+
+.menu-name {
+  max-width:230px;
+  max-height:180px;
+  object-fit:cover;
+  margin:15px 4px;
 }
