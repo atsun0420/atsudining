@@ -143,8 +143,7 @@ ul.nav_list_pc {
                    */
 .container {
   background-color:skyblue;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
   margin: 0 5px;
 }
 
@@ -172,11 +171,6 @@ ul.nav_list_pc {
   color:chocolate;
   margin-top:20px;
   height:300px;
-}
-
-.menu-eat{
-  color:cornflowerblue;
-  padding-left:10px;
 }
 
 .topLink {
@@ -215,6 +209,13 @@ footer {
 
 /*  menu 
                */
+.menu-container {
+  max-width:1280px;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .menuS {
   color:tomato;
   padding:10px 0 20px 10px;
@@ -222,11 +223,30 @@ footer {
 
 .menu-eat {
   margin-bottom: 20px;
+  font-size: 20px;
+  color:cornflowerblue;
+  padding-left:10px;
 }
 
-.menu-name {
-  max-width:230px;
-  max-height:180px;
+.menu-icon1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color:cornflowerblue;
+  padding-left:10px;
+  display: none;
+}
+
+.menu-icon2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color:cornflowerblue;
+  padding-left:10px;
+  display: none;
+}
+
+.menu-name { 
+  max-width:200px;
+  max-height:200px;
   object-fit:cover;
-  margin:15px 4px;
+  margin:15px 20px;
 }
