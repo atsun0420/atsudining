@@ -1,6 +1,5 @@
 @charset 'utf-8';
 
-/*-- @keyframes --*/
 /*-- タブレット向けレイアウト ～1000px --*/
 @media all and (max-width:1000px) {
   
@@ -17,21 +16,25 @@
     left:150px;
   }
 
-  .menu-area {
-    width:25%;
-  }
-
-  .menu-icon1 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    color:cornflowerblue;
-    padding-left:10px;
+  /* 4カラム対応の最終行の並び順 */
+  .menu-container::before{
+    content:"";
     display: block;
+    width:calc(25% - 7.5px);
+    order:1;
   }
 
-  .menu-eat {
-    display: none;
-  }  
+  /* 4カラム対応の最終行の並び順 */
+  /* 3カラム対応の最終行の並び順 */
+  .menu-container::after{
+    content:"";
+    display: block;
+    width:calc(25% - 7.5px);
+  }
+
+  .menu-box {
+    width:calc(25% - 7.5px);
+  }
 }
 
 /*-- スマートフォン向けレイアウト ～670px --*/
@@ -70,26 +73,10 @@
   .drawer_open span,
   .drawer_open span:before,
   .drawer_open span:after {
-        display: block;
-  }
-
-  .menu-area {
-    width:50%;
-  }
-
-  .menu-icon2 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    color:cornflowerblue;
-    padding-left:10px;
     display: block;
   }
 
-  .menu-icon1 {
-    display: none;
-  }
-
-  .menu-eat {
-    display: none;
+  .menu-box {
+    width:calc(50% - 5px);
   }
 }
