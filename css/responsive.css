@@ -16,24 +16,29 @@
     left:150px;
   }
 
-  /* 4カラム対応の最終行の並び順 */
-  .menu-container::before{
-    content:"";
-    display: block;
-    width:calc(25% - 7.5px);
-    order:1;
-  }
+    /* 4カラム対応の最終行の並び順 */
+    /* 3カラム対応の最終行の並び順 */
+    .menu-container::after{
+      content:"";
+      display: block;
+      width:calc(25% - 7.5px);  
+    }
 
-  /* 4カラム対応の最終行の並び順 */
-  /* 3カラム対応の最終行の並び順 */
-  .menu-container::after{
-    content:"";
-    display: block;
-    width:calc(25% - 7.5px);
-  }
+     /* 4カラム対応の最終行の並び順 */
+     .menu-container::before{
+      content:"";
+      display: block;
+      width:calc(25% - 7.5px);
+      order:1;
+    }
 
   .menu-box {
     width:calc(25% - 7.5px);
+    margin-bottom: 100px;
+  }
+
+  .contact-frm-sp {
+    display: none;
   }
 }
 
@@ -78,5 +83,13 @@
 
   .menu-box {
     width:calc(50% - 5px);
+  }
+
+  .contact-frm-sp {
+    display: block;
+  }
+  
+  .contact-frm {
+    display: none;
   }
 }
