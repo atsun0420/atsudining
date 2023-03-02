@@ -34,7 +34,6 @@
 
   .menu-box {
     width:calc(25% - 7.5px);
-    margin-bottom: 100px;
   }
 
   .contact-frm-sp {
@@ -91,5 +90,9 @@
   
   .contact-frm {
     display: none;
+  }
+
+  .drinktitle {
+    margin-top: -100px;
   }
 }
