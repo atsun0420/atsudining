@@ -219,7 +219,6 @@ footer {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  /* gap:100px 0; */
   justify-content: space-between;
 }
 
@@ -317,6 +316,30 @@ footer {
   text-align: right;
 }
 
+.errMsgAge {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.errMsgGender {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.errMsgTitle {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.errMsgGoiken {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 .txtbox {
   width:280px;
   height:25px;
@@ -324,13 +347,21 @@ footer {
   background-color:antiquewhite;
 }
 
-.selectbox {
+.txttitle {
+  width:280px;
+  height:25px;
+  border:1px solid #7c6e6e;
+  background-color:antiquewhite;
+}
+
+.selectjob,
+.selectage {
   width:150px;
   border:1px solid #7c6e6e;
   background-color:antiquewhite;
 }
 
-.txtarea1 {
+.txtarea {
   width:280px;
   border:1px solid #7c6e6e;
   background-color:antiquewhite;
@@ -338,8 +369,8 @@ footer {
 
 .radio {
   border:1px solid #888;
-
 }
+
 .contactLink {
   margin:30px 0 20px 20px ;
 }
@@ -379,7 +410,16 @@ footer {
   margin:30px 0 10px 30px;
 }
 
+.selectjob-sp,
+.selectage-sp {
+  margin-left: 30px;
+  border:1px solid #7c6e6e;
+  background-color:antiquewhite;
+}
+
 .txtbox-sp {
+  width:280px;
+  height:25px;
   margin-left: 30px;
   border:1px solid #7c6e6e;
   background-color:antiquewhite;
@@ -390,22 +430,38 @@ footer {
   border:1px solid #888;
 }
 
-.selectageSP {
-  margin-left: 30px;
-  border:1px solid #7c6e6e;
-  background-color:antiquewhite;
-}
-
-.selectbox-sp {
-  margin-left: 30px;
-  border:1px solid #7c6e6e;
-  background-color:antiquewhite;
-}
-
 .txt2 {
   margin-left: 30px;
   border:1px solid #7c6e6e;
   background-color:antiquewhite;
+}
+
+.errMsgAge-sp {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.errMsgGender-sp {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.errMsgTitle-sp {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.errMsgGoiken-sp {
+  color:red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 30px;
 }
 
 .btnarea-sp {
