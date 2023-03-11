@@ -4,7 +4,7 @@
 @media all and (max-width:1000px) {
   
   .topTitle {
-    font-family: sabon,serif;
+    font-family: serif;
     font-size: 64px;
     font-weight: bold;
     margin:0;
@@ -16,21 +16,20 @@
     left:150px;
   }
 
-    /* 4カラム対応の最終行の並び順 */
-    /* 3カラム対応の最終行の並び順 */
-    .menu-container::after{
-      content:"";
-      display: block;
-      width:calc(25% - 7.5px);  
-    }
+  /* 4カラム・3カラム対応の最終行の並び順 after*/
+  .menu-container::after{
+    content:"";
+    display: block;
+    width:calc(25% - 7.5px);  
+  }
 
-     /* 4カラム対応の最終行の並び順 */
-     .menu-container::before{
-      content:"";
-      display: block;
-      width:calc(25% - 7.5px);
-      order:1;
-    }
+    /* 4カラム対応の最終行の並び順 before*/
+    .menu-container::before{
+    content:"";
+    display: block;
+    width:calc(25% - 7.5px);
+    order:1;
+  }
 
   .menu-box {
     width:calc(25% - 7.5px);
@@ -45,7 +44,7 @@
 @media all and (max-width:670px) {
  
   .topTitle {
-    font-family: sabon,serif;
+    font-family: serif;
     font-size: 24px;
     font-weight: bold;
     margin:0;
