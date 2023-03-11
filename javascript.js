@@ -1,5 +1,4 @@
 'use strict'
-
 //【お問い合わせフォーム(PC用)】
 const contactBtn = document.getElementById("contactBtn"); // ボタン要素(PC用)を取得 
 const gender = document.getElementsByName("gender"); // 性別ラジオボタンのname要素を取得
