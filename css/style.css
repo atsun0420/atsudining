@@ -1,7 +1,6 @@
 @charset 'utf-8';
 
 /* common-css */
-
 html,body,h1,h2,h3,p,ul,li {
   margin: 0;
   padding: 0;
@@ -11,8 +10,7 @@ a {
   text-decoration: none;
 }
 
-/*  header area 
-                   */
+/* header area */
 header {
   margin: 0 5px;
 }
@@ -139,8 +137,7 @@ ul.nav_list_pc {
   bottom: 0;/* メニューを画面に入れる */
 }
 
-/*   main area 
-                   */
+/* main area */
 .container {
   background-color:skyblue;
   width: 100%;
@@ -173,7 +170,7 @@ ul.nav_list_pc {
 }
 
 .topTitle {
-  font-family: sabon,serif;
+  font-family: serif;
   font-size: 96px;
   font-weight: bold;
   color:#333;
@@ -190,8 +187,7 @@ ul.nav_list_pc {
   vertical-align:bottom; /* 画像(img)の下に余白(すき間)ができる問題を解決 */
 }
 
-/*   footer area 
-                   */
+/* footer area */
 footer {  
   text-align: center;
 }
@@ -201,8 +197,7 @@ footer {
   font-size: 14px;
 }
 
-/*  menu-page
-               */
+/* menu-page */
 
 .menu-top {
   display: flex;
@@ -255,8 +250,7 @@ footer {
   margin-top: 2px;
 }
 
-/*  contact-page
-               */
+/* contact-page */
 .contact-frm {
  margin: 0 20px;
 }
@@ -287,8 +281,8 @@ footer {
   font-size: 24px;
   margin: 20px 0;
   margin-left: 20px;
-
 }
+
 .conMsg {
   color:#333;
   font-size: 14px;
@@ -392,8 +386,7 @@ footer {
   text-align: center;
 }
 
-/*  contact page -スマートフォン用- 
-                                    */
+/* contact page -スマートフォン用- */
 .contact-frm-sp {
   margin: 0 20px;
   width:300px;
