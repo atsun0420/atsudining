@@ -1,132 +1,129 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <title>お問い合わせ</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>お問い合わせ</title>
+  </head>
   <body> 
     <p class="conTitle">お問い合わせ</p>
     <p class="conMsg">私たちの想いを届けて、お客様により満足して頂けるように日々努力と改善をして参ります。</p>
     <p class="conMsg">Atsu's Diningでの体験を通して、改善点などお客様のご意見、ご感想をお寄せください。</p>
-  
-  <div class="contact-frm">
-    <p class="inputTitle">入力フォーム<span class="requiredSentence">※は必須項目です</span></p>  
-    <form action="" method="" name="frm-pc">
-      <table>
-        <tr>
-          <th>お名前</th><td><input type="text" id="text1" class="txtbox" name="txtbox" value=""></td>
-        </tr>
-        <tr>
-          <th>性別<span class="requiredRed">※</span></th>
-            <td>
-              <label for=""><input type="radio" id="radio" class="radio" name="gender">男性</label>
-              <label for=""><input type="radio" class="radio" name="gender">女性</label>
-              <p class="errMsgGender"></p>
-            </td>
-        </tr>
-        <tr>
-          <th>年代<span class="requiredRed">※</span></th>
-            <td>
-              <select name="selectage" class="selectage">
-                <option value="">選択してください</option>
-                <option value="10代">10代</option>
-                <option value="20代">20代</option>
-                <option value="30代">30代</option>
-                <option value="40代">40代</option>
-                <option value="50代">50代</option>
-                <option value="60代">60代</option>
-                <option value="70代">70代</option>
-                <option value="80代">80代以上</option>
-              </select>
-              <br><p class="errMsgAge"></p>
-            </td>        
-        </tr>
-        
-        <tr>
-          <th>ご職業</th>
-            <td>
-              <select name="selectjob" class="selectjob">
-                <option value="">選択してください</option>
-                <option value="会社員">会社員</option>
-                <option value="学生">学生</option>
-                <option value="主婦">主婦</option>
-                <option value="パート・アルバイト">パート・アルバイト</option>
-                <option value="自営業">自営業</option>
-                <option value="無職">無職</option>
-                <option value="その他">その他</option>
-              </select>
-            </td>          
-        </tr>
-        <tr>
-          <th>ご意見タイトル<span class="requiredRed">※</span></th><td><input type="text" id="text2" class="txttitle" name="txttitle">
-            <br><p class="errMsgTitle"></p></td>
-        </tr>
-        <tr>
-          <th>ご意見<span class="requiredRed">※</span></th><td><textarea id="textarea" class="txtarea" name="textarea"  cols="30" rows="10"></textarea><br><p class="errMsgGoiken"></p></td>
-        </tr>
-      </table>
-      <div class="btnarea">
-        <input type="button" id="contactBtn" value="送信">
-      </div>
-    </form>  
-  </div>
 
+    <div class="contact-frm">
+      <p class="inputTitle">入力フォーム<span class="requiredSentence">※は必須項目です</span></p>  
+      <form action="" method="" name="frm-pc">
+        <table>
+          <tr>
+            <th>お名前</th><td><input type="text" id="text1" class="txtbox" name="txtbox" value=""></td>
+          </tr>
+          <tr>
+            <th>性別<span class="requiredRed">※</span></th>
+              <td>
+                <label for=""><input type="radio" id="radio" class="radio" name="gender">男性</label>
+                <label for=""><input type="radio" class="radio" name="gender">女性</label>
+                <p class="errMsgGender"></p>
+              </td>
+          </tr>
+          <tr>
+            <th>年代<span class="requiredRed">※</span></th>
+              <td>
+                <select name="selectage" class="selectage">
+                  <option value="">選択してください</option>
+                  <option value="10代">10代</option>
+                  <option value="20代">20代</option>
+                  <option value="30代">30代</option>
+                  <option value="40代">40代</option>
+                  <option value="50代">50代</option>
+                  <option value="60代">60代</option>
+                  <option value="70代">70代</option>
+                  <option value="80代">80代以上</option>
+                </select>
+                <br><p class="errMsgAge"></p>
+              </td>        
+          </tr>
+          
+          <tr>
+            <th>ご職業</th>
+              <td>
+                <select name="selectjob" class="selectjob">
+                  <option value="">選択してください</option>
+                  <option value="会社員">会社員</option>
+                  <option value="学生">学生</option>
+                  <option value="主婦">主婦</option>
+                  <option value="パート・アルバイト">パート・アルバイト</option>
+                  <option value="自営業">自営業</option>
+                  <option value="無職">無職</option>
+                  <option value="その他">その他</option>
+                </select>
+              </td>          
+          </tr>
+          <tr>
+            <th>ご意見タイトル<span class="requiredRed">※</span></th><td><input type="text" id="text2" class="txttitle" name="txttitle">
+              <br><p class="errMsgTitle"></p></td>
+          </tr>
+          <tr>
+            <th>ご意見<span class="requiredRed">※</span></th><td><textarea id="textarea" class="txtarea" name="textarea"  cols="30" rows="10"></textarea><br><p class="errMsgGoiken"></p></td>
+          </tr>
+        </table>
+        <div class="btnarea">
+          <input type="button" id="contactBtn" value="送信">
+        </div>
+      </form>  
+    </div>
 
-  <div class="contact-frm-sp">
-    <p class="inputTitle-sp">入力フォーム<span class="requiredSentence">※は必須項目です</span></p>  
-    <form action="" method="" name="frm-sp">
-      <p class="inp-word"><span class="spline">■</span>お名前</p>
-        <input type="text" class="txtbox-sp">
-      <p class="inp-word"><span class="spline">■</span>性別<span class="requiredRed">※</span></p>
-        <label for=""><input type="radio"  class ="radio-sp" name="gender-sp" value="1">男性</label>
-        <label for=""><input type="radio"  name="gender-sp" value="2">女性</label>
-        <p class="errMsgGender-sp"></p>
-      <p class="inp-word"><span class="spline">■</span>年代<span class="requiredRed">※</span></p>
-        <select name="selectage" class="selectage selectage-sp">
-          <option value = "">選択してください</option>
-          <option value="age1">10代</option>
-          <option value="age2">20代</option>
-          <option value="age3">30代</option>
-          <option value="age4">40代</option>
-          <option value="age5">50代</option>
-          <option value="age6">60代</option>
-          <option value="age7">70代</option>
-          <option value="age8">80代以上</option>
-        </select>
-        <p class="errMsgAge-sp"></p>
-      <p class="inp-word"><span class="spline">■</span>ご職業</p>
-        <select name="selectjob" class="selectjob-sp">
-          <option>選択してください</option>
-          <option>会社員</option>
-          <option>学生</option>
-          <option>主婦</option>
-          <option>パート・アルバイト</option>
-          <option>自営業</option>
-          <option>無職</option>
-          <option>その他</option>
-        </select>
-      <p class="inp-word"><span class="spline">■</span>ご意見タイトル<span class="requiredRed">※</span></p>
-        <input type="text" class="txttitle txttitle-sp txt2">
-        <p class="errMsgTitle-sp"></p>
-      <p class="inp-word"><span class="spline">■</span>ご意見<span class="requiredRed">※</span></p>
-        <textarea class="txtarea txtarea-sp txt2" cols="30" rows="10"></textarea>
-        <p class="errMsgGoiken-sp"></p>
-      <div class="btnarea-sp">
-        <input type="button" id="contactBtn-sp" value="送信">
-      </div>
-    </form>
-  </div>
-
-
-  <div class="contactLink">
-    <a  href="index.html">topへ戻る</a>
-  </div>
-  <script src="javascript.js"></script>
+    <div class="contact-frm-sp">
+      <p class="inputTitle-sp">入力フォーム<span class="requiredSentence">※は必須項目です</span></p>  
+      <form action="" method="" name="frm-sp">
+        <p class="inp-word"><span class="spline">■</span>お名前</p>
+          <input type="text" class="txtbox-sp">
+        <p class="inp-word"><span class="spline">■</span>性別<span class="requiredRed">※</span></p>
+          <label for=""><input type="radio"  class ="radio-sp" name="gender-sp" value="1">男性</label>
+          <label for=""><input type="radio"  name="gender-sp" value="2">女性</label>
+          <p class="errMsgGender-sp"></p>
+        <p class="inp-word"><span class="spline">■</span>年代<span class="requiredRed">※</span></p>
+          <select name="selectage" class="selectage selectage-sp">
+            <option value = "">選択してください</option>
+            <option value="age1">10代</option>
+            <option value="age2">20代</option>
+            <option value="age3">30代</option>
+            <option value="age4">40代</option>
+            <option value="age5">50代</option>
+            <option value="age6">60代</option>
+            <option value="age7">70代</option>
+            <option value="age8">80代以上</option>
+          </select>
+          <p class="errMsgAge-sp"></p>
+        <p class="inp-word"><span class="spline">■</span>ご職業</p>
+          <select name="selectjob" class="selectjob-sp">
+            <option>選択してください</option>
+            <option>会社員</option>
+            <option>学生</option>
+            <option>主婦</option>
+            <option>パート・アルバイト</option>
+            <option>自営業</option>
+            <option>無職</option>
+            <option>その他</option>
+          </select>
+        <p class="inp-word"><span class="spline">■</span>ご意見タイトル<span class="requiredRed">※</span></p>
+          <input type="text" class="txttitle txttitle-sp txt2">
+          <p class="errMsgTitle-sp"></p>
+        <p class="inp-word"><span class="spline">■</span>ご意見<span class="requiredRed">※</span></p>
+          <textarea class="txtarea txtarea-sp txt2" cols="30" rows="10"></textarea>
+          <p class="errMsgGoiken-sp"></p>
+        <div class="btnarea-sp">
+          <input type="button" id="contactBtn-sp" value="送信">
+        </div>
+      </form>
+    </div>
+    <div class="contactLink">
+      <a  href="index.html">topへ戻る</a>
+    </div>
+    <script src="javascript.js"></script>
   </body>
 </html>
